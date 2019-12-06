@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">NFLTEAMAPP</string>
+    <string name="team_title_hint">Enter a title for the team.</string>
+    <string name="team_qb_hint">Enter a QB for the team.</string>
+    <string name="team_title_label">Title</string>
+    <string name="team_qb_label">Quarterback</string>
+    <string name="team_details_label">Details</string>
+    <string name="team_active_label">Active</string>
+    <string name="team_title">Team Title</string>
+    <string name="team_qb">Team QB</string>
+    <string name="team_date">Team Date</string>
+    <string name="date_picker_title">Date team established:</string>
+    <string name="new_team">New Team</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d teams</string>
+    <string name="team_coach_text">Choose Coach</string>
+    <string name="team_add_text">Add Team</string>
+    <string name="team_add">%1$s!
+      The team was added on %2$s. %3$s, and %4$s
+    </string>
+    <string name="team_add_active">The team is active</string>
+    <string name="team_add_inactive">The team is not active</string>
+    <string name="team_add_no_coach">There is no coach.</string>
+    <string name="team_add_coach">The coach is %s.</string>
+    <string name="team_add_subject">NFLTeam Team Add</string>
+    <string name="add_team">Add team via</string>
+    <string name="delete_team">Delete Team</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="toggle_dark_mode">Toggle Dark Mode</string>
+    <string name="team_name">Team Name</string>
+    <string name="team_established_date">Team Established Date</string>
+    <string name="team_currently_active">Team Currently Active</string>
+    <string name="team_is_currently_active_in_the_nfl">Team is Currently Active in the NFL</string>
+    <string name="new_nfl_team">New NFL Team</string>
+    <string name="team_venue">Team Venue</string>
+    <string name="team_quarterback">Team Quarterback</string>
+    <string name="team_venue_stadium">Team Venue (Stadium)</string>
+    <string name="please_enter_a_city">Please Enter a City</string>
+    <string name="team_city">Team City</string>
+
+</resources>

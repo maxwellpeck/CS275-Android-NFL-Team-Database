@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="24sp"
+    android:orientation="vertical">
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_name"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/team_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/team_title_hint"
+        android:textSize="24sp"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_qb_label"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/team_qb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_nfl_team"
+        android:hint="@string/team_quarterback"
+        android:textSize="24sp"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_venue"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/team_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_nfl_team"
+        android:hint="@string/team_venue_stadium"
+        android:textSize="24sp"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team Location"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/team_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_nfl_team"
+        android:hint="@string/please_enter_a_city"
+        android:textSize="24sp"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_established_date"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/team_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/team_active"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/team_is_currently_active_in_the_nfl"/>
+    <!--    <Button-->
+    <!--        android:id="@+id/team_coach"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/team_coach_text"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/team_add"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/team_add_text"/>-->
+</LinearLayout>
